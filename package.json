@@ -1,0 +1,24 @@
+{
+  "name": "sleefs-picker-color",
+  "version": "1.0.0",
+  "description": "Ejercicio de generación de mascaras en imagenes transparentes con CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mmuriel/sleefs-picker-color.git"
+  },
+  "keywords": [
+    "sleefs",
+    "css",
+    "masking"
+  ],
+  "author": "mauricio.muriel@calitek.net",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmuriel/sleefs-picker-color/issues"
+  },
+  "homepage": "https://github.com/mmuriel/sleefs-picker-color#readme"
+}
