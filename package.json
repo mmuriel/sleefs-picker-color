@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/mmuriel/sleefs-picker-color/issues"
   },
-  "homepage": "https://github.com/mmuriel/sleefs-picker-color#readme"
+  "homepage": "https://github.com/mmuriel/sleefs-picker-color#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-sass": "^2.3.2"
+  }
 }
