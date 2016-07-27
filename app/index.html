@@ -12,6 +12,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script src="js/bundle.js" ></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -19,13 +20,30 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hola mundo! Desde otro punto uno más...</p>
-        <div class="atom_container">
-        	<div class="atom_img_container">
-        		<img src="img/tights.png" class="imgbase mask2"/>
-        		<img src="img/tights.png" class="imgbase mask1"/>
-        		
-        	</div>
+        <header>
+        <h1> Probado fondos degradados para generar efecto visual de moficiación de prenda.</h1>
+        </header>
+        <section>
+	        <div class="atom_container">
+	        	<div class="atom_img_container">
+	        		<img src="img/tights_mm.png" class="imgbase bkg_top_aqua" id="img_top"/>
+	        		<img src="img/tights_mm.png" class="imgbase bkg_bottom_black" id="img_bottom"/>
+	        	</div>
+	        </div>
+        </section>
+        <div class="controller">
+        	<h3>Top Color</h3>
+        	<select class="control_selector" id="top_selector">
+        		<option value="aqua">Aqua</option>
+        		<option value="black">Black</option>
+        		<option value="blue">Blue</option>
+        	</select>
+        	<h3>Bottom Color</h3>
+        	<select class="control_selector" id="bottom_selector">
+        		<option value="aqua">Aqua</option>
+        		<option value="black">Black</option>
+        		<option value="blue">Blue</option>
+        	</select>
         </div>
     </body>
 </html>

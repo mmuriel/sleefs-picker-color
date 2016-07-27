@@ -23,6 +23,7 @@ gulp.task('initwatch',function(){
 
 	gulp.watch('app/*.html').on("change",browserSync.reload);
 	gulp.watch('app/css/*.css').on("change",browserSync.reload);
+	gulp.watch('app/js/*.js').on("change",browserSync.reload);
 
 });
 
